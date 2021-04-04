@@ -1,4 +1,4 @@
-# my-profile
+# mini-proj1
 
 > A Vue.js project
 
