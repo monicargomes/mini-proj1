@@ -8,20 +8,20 @@
 
 <script>
 import Header from "./components/header/Header";
-import Footer from "./components/footer/Footer"
+import Footer from "./components/footer/Footer";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    'app-header': Header,
-    'app-footer': Footer
-  }
-}
+    "app-header": Header,
+    "app-footer": Footer,
+  },
+};
 </script>
 
 <style lang="scss">
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
@@ -30,12 +30,13 @@ export default {
   height: 100vh;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: normal;
-  color: #02eeAB;
+  color: #02eeab;
 }
 
-a{
+a {
   color: #fff;
   text-decoration: none;
   &:hover {
@@ -43,11 +44,10 @@ a{
   }
 }
 
-ul{
+ul {
   list-style: none;
   margin: 0;
   padding: 0;
-
 }
 
 .body {
@@ -69,5 +69,4 @@ ul{
     box-shadow: 0px 0px 8px 4px #ccc;
   }
 }
-
 </style>
