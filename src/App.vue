@@ -33,15 +33,10 @@ export default {
 h1,
 h2 {
   font-weight: normal;
-  color: #02eeab;
 }
 
 a {
-  color: #fff;
   text-decoration: none;
-  &:hover {
-    text-decoration: underline;
-  }
 }
 
 ul {

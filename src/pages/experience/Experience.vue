@@ -13,8 +13,8 @@ export default {
       heading: "O que eu faço",
       content: [
         "Sou Engenheira Frontend Senior em uma empresa de consultoria em tecnologia. Desenvolvo aplicações web para diversos clientes, principalmente clientes na área financeira.",
-        "Trabalho com Javascript, Typescript, HTML e CSS. Tenho experiência com SPA em React e Angular e estou testando o Vue. Também tenho experiência com Ionic e gostaria de experimentar com Flutter.",
-        "Em 2020, iniciei o mestrado em Engenharia Informática e Sistemas Web pela Universidade Aberta de Portugal com o objetivo de expandir meus conhecimentos na área principalmente com relação a arquitetura e back-end",
+        "Trabalho com Javascript, Typescript, HTML e CSS. Tenho experiência com SPA em React e Angular e estou testando o Vue. Também tenho experiência com Ionic e gostaria de aprender Flutter.",
+        "Em 2020, iniciei um mestrado em Engenharia Informática e Sistemas Web pela Universidade Aberta de Portugal com o objetivo de expandir meus conhecimentos na área, especialmente com relação a arquitetura de sistemas e back-end.",
       ],
     };
   },

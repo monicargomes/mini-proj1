@@ -15,8 +15,9 @@ export default {
     return {
       heading: "Hobbies",
       content: [
-        "No meu tempo livre, gosto de ler, assistir filmes e seriados, jogar video game e viajar. Prefiro livros, filmes e seriados de ficção, comédia ou romance.",
-        "Adoro quando posso estar em contato com a natureza, fazer trilhas e passeios de bicicleta. Também gosto de cozinhar e receber os amigos em casa.",
+        "No meu tempo livre, gosto de ler, assistir filmes e seriados, jogar video game e viajar.",
+        "Adoro estar em contato com a natureza, fazer trilhas e passeios de bicicleta. Também gosto de cozinhar e receber os amigos em casa.",
+        "A viagem que mais me marcou até hoje foi uma viagem à Suíça, onde pude ver os Alpes!"
       ],
     };
   },

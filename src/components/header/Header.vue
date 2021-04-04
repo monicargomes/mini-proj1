@@ -1,9 +1,9 @@
 <template>
   <div id="app-header" class="header">
     <div class="logo">{{ logo }}</div>
-    <ul class="navigation">
-      <li class="navigation__item" v-for="(route, idx) in routes" :key="idx">
-        <router-link :to="route.path">{{ route.label }}</router-link>
+    <ul class="header__nav">
+      <li class="header__nav-item" v-for="(route, idx) in routes" :key="idx">
+        <router-link class="header__nav-link" :to="route.path">{{ route.label }}</router-link>
       </li>
     </ul>
   </div>
@@ -31,13 +31,24 @@ export default {
   padding: 16px;
   color: #fff;
   font-weight: 500;
-}
+  position: sticky;
+  top: 0;
 
-.navigation {
-  display: flex;
+  &__nav {
+    display: flex;
+  }
 
-  &__item {
+  &__nav-item {
     margin-right: 16px;
   }
+
+  &__nav-link {
+    color: #fff;
+    &:hover {
+      border-bottom: 2px solid #02eeab;
+      color: #02eeab;
+    }
+  }
 }
+
 </style>

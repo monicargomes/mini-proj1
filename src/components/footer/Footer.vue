@@ -25,7 +25,6 @@ export default {
   justify-content: center;
   align-items: center;
   padding: 16px;
-  color: #fff;
 
   &__social {
     width: 32px;
